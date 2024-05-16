@@ -25,13 +25,17 @@ sudo apt install tmux git -y && apt new -s initia
 ```
 
 ### 2. Install
+
 ```bash
 curl -o install_initia.sh https://raw.githubusercontent.com/solotop999/validator_initia/main/install_initia.sh
 chmod +x install_initia.sh
-./install_initia.sh
+```
+- Change '**YOUR_NODE_NAME**' to your name:
+```bash
+./install_initia.sh YOUR_NODE_NAME
 ```
 
-- Following to script insctruction:
+- Following script insctruction:
 
   - Backup your mnemonic and public key.
   - Go to: https://faucet.testnet.initia.xyz/ and claim faucet
