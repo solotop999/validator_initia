@@ -10,6 +10,21 @@ Documentation to install validator_initia
 - Bandwidth: 1 Gbps
 - Linux amd64 arm64 (Ubuntu LTS release)
 ```
+## VPS Provider
+Get $200 in cloud credits from DigitalOcean
+
+Register here ⬇️
+
+[![DigitalOcean Referral Badge](https://web-platforms.sfo2.cdn.digitaloceanspaces.com/WWW/Badge%201.svg)](https://www.digitalocean.com/?refcode=3143894b1895&utm_campaign=Referral_Invite&utm_medium=Referral_Program&utm_source=badge)
+
+After register susccess:
+
+Click Create -> Droplets to create VPS:
+
+My VPS config:
+- ubuntu version: 24.04
+- ubuntu-s-4vcpu-8gb-amd-sgp1-01 ($56/mo)
+
 
 ## Installation guide
 
