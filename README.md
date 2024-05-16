@@ -10,12 +10,6 @@ Documentation to install validator_initia
 - Bandwidth: 1 Gbps
 - Linux amd64 arm64 (Ubuntu LTS release)
 ```
----
-- RPC: https://rpc-initia-testnet.trusted-point.com:443
-- REST API: https://rpc-initia-testnet.trusted-point.com:443
-- WSS: wss://rpc-initia-testnet.trusted-point.com:443/websocket
-- P2P Persistent Peer: a63a6f6eae66b5dce57f5c568cdb0a79923a4e18@peer-initia-testnet.trusted-point.com:26628
----
 
 ## Installation guide
 
@@ -304,3 +298,7 @@ curl localhost:$API_PORT/cosmos/mstaking/v1beta1/validators
 ### MAKE SURE API is enabled in app.toml
 # grep -A 3 "\[api\]" $HOME/.initia/config/app.toml
 ```
+### Source
+- https://github.com/trusted-point/initia-tools
+
+
