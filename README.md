@@ -81,6 +81,7 @@ Check your validator:
 - Go to: https://scan.testnet.initia.xyz/initiation-1/validators
 - Search your '**YOUR_NODE_NAME**'
 
+[Submit The Validator Initiation Form](https://docs.google.com/forms/d/e/1FAIpQLSc09Kl6mXyZHOL12n_6IUA8MCcL6OqzTqsoZn9N8gpptoeU_Q/viewform)
 
 ## --------------------------------------------------
 ## Helpful command
