@@ -30,7 +30,7 @@ My VPS config:
 
 ### 1. Pre-Install
 ```bash
-sudo apt install tmux git -y && apt new -s initia
+sudo apt install tmux git -y && tmux new -s initia
 ```
 
 ### 2. Install
