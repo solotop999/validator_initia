@@ -15,7 +15,10 @@ Get $200 in cloud credits from DigitalOcean
 
 Register here ⬇️
 
-[![DigitalOcean Referral Badge](https://web-platforms.sfo2.cdn.digitaloceanspaces.com/WWW/Badge%201.svg)](https://www.digitalocean.com/?refcode=3143894b1895&utm_campaign=Referral_Invite&utm_medium=Referral_Program&utm_source=badge)
+<a href="https://www.digitalocean.com/?refcode=3143894b1895&utm_campaign=Referral_Invite&utm_medium=Referral_Program&utm_source=badge" target="_blank">
+    <img src="https://web-platforms.sfo2.cdn.digitaloceanspaces.com/WWW/Badge%201.svg" alt="DigitalOcean Referral Badge">
+</a>
+
 
 After register susccess:
 
