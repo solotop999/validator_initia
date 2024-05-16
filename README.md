@@ -60,7 +60,7 @@ chmod +x install_initia.sh
 - You can turn off terminal and check status later
   -  check logs: journalctl -t initiad -f -o cat
 
-  - Check block syncing: 
+  - Check Blocks left: 
   ```bash
     local_height=$(/root/go/bin/initiad status | jq -r .sync_info.latest_block_height)
     network_height=$(curl -s https://rpc-initia-testnet.trusted-point.com/status | jq -r .result.sync_info.latest_block_height)
@@ -75,7 +75,13 @@ chmod +x install_initia.sh
   ```bash
   tmux attach -t initia
   ```
-  
+## DONE ALL.
+Check your validator:
+- Go to: https://scan.testnet.initia.xyz/initiation-1/validators
+- Search your '**YOUR_NODE_NAME**'
+
+
+## --------------------------------------------------
 ## Helpful command
 
 ### 1. Stop the node
