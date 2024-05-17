@@ -24,7 +24,7 @@ Click Create -> Droplets to create VPS:
 
 My VPS config:
 - ubuntu version: 24.04
-- ubuntu-s-4vcpu-8gb-amd-sgp1-01 ($56/mo)
+- ubuntu-s-4vcpu-16gb-amd-sfo3-01 ($84/mo Location: San Francisco) 
 
 
 ## Installation guide
