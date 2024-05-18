@@ -64,6 +64,10 @@ fi
 
 wget https://initia.s3.ap-southeast-1.amazonaws.com/initiation-1/genesis.json -O $HOME/.initia/config/genesis.json
 
+## fast address book
+wget https://initia.s3.ap-southeast-1.amazonaws.com/initiation-1/addrbook.json
+mv addrbook.json ~/.initia/config/addrbook.json
+
 # Add seeds and peers to the config.toml
 PEERS="$(curl -sS https://initia-t-rpc.syanodes.my.id/net_info | jq -r '.result.peers[] | "\(.node_info.id)@\(.remote_ip):\(.node_info.listen_addr)"' | awk -F ':' '{print $1":"$(NF)}' | sed -z 's|\n|,|g;s|.$||')"
 SEEDS="2eaa272622d1ba6796100ab39f58c75d458b9dbc@34.142.181.82:26656,c28827cb96c14c905b127b92065a3fb4cd77d7f6@testnet-seeds.whispernode.com:25756"
